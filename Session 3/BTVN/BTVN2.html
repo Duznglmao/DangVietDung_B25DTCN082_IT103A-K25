@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="./AnhhHien.jpg">
+    <title>BTVN2</title>
+</head>
+
+<body background="https://img4.thuthuatphanmem.vn/uploads/2020/07/05/hinh-anh-background-mau-sac-that-dep_034909644.jpg"
+    marginwidth="350">
+
+    <main>
+        <fieldset>
+            <legend align="center">
+                <font color="purple">
+                    <h1>Form Đặt Mua Tài Liệu Lập Trình</h1>
+                </font>
+            </legend>
+
+            <form action="" method="post">
+                <table cellpadding="5">
+                    <tr>
+                        <td><label for="material">Chọn tài liệu:</label></td>
+                        <td>
+                            <select name="material" id="material" autofocus required>
+                                <option value="" disabled hidden selected>-- Tài liệu --</option>
+                                <option value="html">Tài liệu môn HTML & CSS</option>
+                                <option value="js">Tài liệu môn JavaScript</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="quantity">Số lượng:</label></td>
+                        <td>
+                            <input type="number" name="quantity" id="quantity" min="1" max="100" value="1" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="note">Ghi chú:</label></td>
+                        <td>
+                            <textarea id="note" name="note" rows="4" cols="30"
+                                placeholder="Yêu cầu thêm (nếu có)..."></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="address">Địa chỉ giao hàng:</label></td>
+                        <td>
+                            <textarea id="address" name="address" rows="5" cols="30" required
+                                placeholder="Nhập địa chỉ giao hàng..."></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit">Đặt mua</button>
+                            <button type="reset">Nhập lại</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </main>
+
+</body>
+
+</html>
