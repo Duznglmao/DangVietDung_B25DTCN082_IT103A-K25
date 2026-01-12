@@ -1,0 +1,75 @@
+body {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.intro-section {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro-section h1 {
+    color: #1e90ff;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.intro-section p {
+    color: #1e90ff;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.intro-section img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.locations-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.locations-section h2 {
+    color: #1e90ff;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.locations-list {
+    list-style: none;
+    padding: 0;
+}
+
+.locations-list li {
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.locations-list li:nth-child(1) {
+    color: red;
+    font-style: italic;
+}
+
+.locations-list li:nth-child(2) {
+    color: red;
+    font-style: italic;
+}
+
+.locations-list li:nth-child(3) {
+    color: red;
+    font-style: italic;
+}
+
+.locations-list li:nth-child(4) {
+    color: #333;
+}

@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background: #fff;
+}
+
+.main-title {
+    color: #1e90ff;
+    font-size: 32px;
+    margin: 30px 0;
+}
+
+.services-title {
+    color: #1e90ff;
+    font-size: 28px;
+    margin: 40px 0 25px;
+}
+
+.doctor-box {
+    background: #e6f7ff;
+    padding: 25px;
+    margin: 0 35px;
+}
+
+.doctor-box img {
+    width: 200px;
+    margin-top: -25px;
+}
+
+.doctor-name {
+    color: #1e90ff;
+    font-size: 24px;
+    margin: 15px 0 5px;
+}
+
+.doctor-spec {
+    color: #666;
+    font-size: 16px;
+}
+
+.services-section p {
+    color: #333;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.divider {
+    width: 500px;
+    margin: 30px auto;
+    border: none;
+    border-top: 1px solid #ccc;
+}
