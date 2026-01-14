@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+.doctor-card {
+    width: 400px;
+    border: 1px solid #000;
+    padding: 16px;
+}
+
+.doctor-card h2 {
+    font-size: 20px;
+    color: #ff7a00;
+    /* cam */
+    margin-bottom: 12px;
+}
+
+.doctor-card h2 span {
+    margin-right: 6px;
+}
+
+.doctor-card img {
+    width: 100%;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.doctor-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.doctor-specialty {
+    color: #00b92a;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.doctor-desc {
+    color: #777;
+    line-height: 1.5;
+    font-size: 14px;
+}
