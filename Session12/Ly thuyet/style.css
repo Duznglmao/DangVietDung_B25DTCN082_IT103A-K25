@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: green;
+}
+
+/* RESPONSIVE */
+/* DESKTOP FIRST */
+
+@media screen and (max-width: 1200px) {
+    .container {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        background-color: violet;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        background-color: yellow;
+    }
+}
