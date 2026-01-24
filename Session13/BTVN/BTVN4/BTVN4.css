@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar {
+    background: #fff;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nav-links a.active {
+    color: #5a57e6;
+    background: #f0f1ff;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #5a57e6;
+}
+
+.hero-banner {
+    background-color: #5a57e6;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-banner h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.hero-banner p {
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+.filters-section {
+    padding: 30px 0;
+    background: #fff;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-filter {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #555;
+    transition: 0.3s;
+}
+
+.btn-filter.active {
+    background: #5a57e6;
+    color: white;
+    border-color: #5a57e6;
+}
+
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .user-profile {
+        flex-direction: column;
+    }
+
+    .hero-banner {
+        padding: 60px 20px;
+    }
+
+    .hero-banner h1 {
+        font-size: 28px;
+    }
+
+    .filter-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn-filter {
+        width: 100%;
+        text-align: center;
+    }
+}
